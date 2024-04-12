@@ -1,0 +1,24 @@
+* {
+    color: #990;
+    text-shadow: 0 0 .5px black;
+}
+
+#wait {
+    position: absolute;
+    top: 0;
+    padding: 2rem;
+    left: 49%;
+    font-size: large;
+    color: #000;
+    display: none;
+}
+
+table th,
+table td {
+    text-align: center !important;
+}
+
+input[name="cashForAll"],
+select[name="changeStatusAll"] {
+    display: none;
+}
